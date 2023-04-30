@@ -2,7 +2,7 @@ import chai, { expect } from 'chai'
 import { Contract, constants } from 'ethers'
 import { solidity, MockProvider, createFixtureLoader, deployContract } from 'ethereum-waffle'
 
-import UniswapV2Factory from '@uniswap/v2-core/build/UniswapV2Factory.json'
+import UniswapV2Factory from '@mageswap/v2-core/build/UniswapV2Factory.json'
 import FeeToSetter from '../../build/FeeToSetter.json'
 
 import { governanceFixture } from '../fixtures'

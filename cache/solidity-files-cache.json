@@ -1,0 +1,316 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "build_infos": "out/build-info",
+    "sources": "contracts",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "contracts/FeeTo.sol": {
+      "lastModificationDate": 1682892209527,
+      "contentHash": "b1548806d63aa1424f565c96a50dbb0f",
+      "sourceName": "contracts/FeeTo.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.5.16",
+      "artifacts": {
+        "FeeTo": {
+          "0.5.16+commit.9c3226ce.Linux.gcc": "FeeTo.sol/FeeTo.json"
+        },
+        "IUniswapV2Pair": {
+          "0.5.16+commit.9c3226ce.Linux.gcc": "FeeTo.sol/IUniswapV2Pair.json"
+        }
+      }
+    },
+    "contracts/FeeToSetter.sol": {
+      "lastModificationDate": 1682892209527,
+      "contentHash": "61f9dbddd59e88e3552023d695201650",
+      "sourceName": "contracts/FeeToSetter.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.5.16",
+      "artifacts": {
+        "FeeToSetter": {
+          "0.5.16+commit.9c3226ce.Linux.gcc": "FeeToSetter.sol/FeeToSetter.json"
+        },
+        "IUniswapV2Factory": {
+          "0.5.16+commit.9c3226ce.Linux.gcc": "FeeToSetter.sol/IUniswapV2Factory.json"
+        }
+      }
+    },
+    "contracts/GovernorAlpha.sol": {
+      "lastModificationDate": 1682892209527,
+      "contentHash": "f3c95d42e57c6333162220985841739e",
+      "sourceName": "contracts/GovernorAlpha.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.5.16",
+      "artifacts": {
+        "GovernorAlpha": {
+          "0.5.16+commit.9c3226ce.Linux.gcc": "GovernorAlpha.sol/GovernorAlpha.json"
+        },
+        "TimelockInterface": {
+          "0.5.16+commit.9c3226ce.Linux.gcc": "GovernorAlpha.sol/TimelockInterface.json"
+        },
+        "UniInterface": {
+          "0.5.16+commit.9c3226ce.Linux.gcc": "GovernorAlpha.sol/UniInterface.json"
+        }
+      }
+    },
+    "contracts/SafeMath.sol": {
+      "lastModificationDate": 1682892209527,
+      "contentHash": "cea035c339007f3f8e5c97f91976a6ee",
+      "sourceName": "contracts/SafeMath.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.5.16",
+      "artifacts": {
+        "SafeMath": {
+          "0.5.16+commit.9c3226ce.Linux.gcc": "SafeMath.sol/SafeMath.json"
+        }
+      }
+    },
+    "contracts/Timelock.sol": {
+      "lastModificationDate": 1682892209527,
+      "contentHash": "32f77c167fae6e68ce3869f94a20775f",
+      "sourceName": "contracts/Timelock.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/SafeMath.sol"
+      ],
+      "versionRequirement": "^0.5.16",
+      "artifacts": {
+        "Timelock": {
+          "0.5.16+commit.9c3226ce.Linux.gcc": "Timelock.sol/Timelock.json"
+        }
+      }
+    },
+    "contracts/TreasuryVester.sol": {
+      "lastModificationDate": 1682892209527,
+      "contentHash": "94af50469574ae4cce7a210d4deefcde",
+      "sourceName": "contracts/TreasuryVester.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/SafeMath.sol"
+      ],
+      "versionRequirement": "^0.5.16",
+      "artifacts": {
+        "IUni": {
+          "0.5.16+commit.9c3226ce.Linux.gcc": "TreasuryVester.sol/IUni.json"
+        },
+        "TreasuryVester": {
+          "0.5.16+commit.9c3226ce.Linux.gcc": "TreasuryVester.sol/TreasuryVester.json"
+        }
+      }
+    },
+    "contracts/Uni.sol": {
+      "lastModificationDate": 1682892209527,
+      "contentHash": "182cbe9c2d99c0f02d437cfdb081930a",
+      "sourceName": "contracts/Uni.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "contracts/SafeMath.sol"
+      ],
+      "versionRequirement": "^0.5.16",
+      "artifacts": {
+        "Uni": {
+          "0.5.16+commit.9c3226ce.Linux.gcc": "Uni.sol/Uni.json"
+        }
+      }
+    }
+  }
+}
